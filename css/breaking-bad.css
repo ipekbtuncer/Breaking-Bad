@@ -1,48 +1,54 @@
 
+
 body > main > section {
-    width: 1306.5px;
+    width: 1330.5px;
     margin: auto;
-    margin-top: 20px;
-    
+    margin-top: 20px;   
 }
-
-
 
 body{
     background: #1F6032;
     color: #e5ac29;
     margin: auto;
+    font-family: "cooper-light";
 }
 
+@font-face {
+    font-family: "cooper-light";
+    src: url("C:/Users/İPEK/Desktop/İPEK/Breaking-Bad/fonts/Cooper-Light/cooper-light.ttf") ;
+}
+
+
 body h1{
-    text-align: center;
-    
+    text-align: center;   
+}
+
+body h4{
+    text-align: center; 
 }
 
 character{
     width: 200px;
     display:inline-block ;
-    border: 1px solid #e5ac29;
+    border: 3px solid #e5ac29;
+    border-style: groove;
     padding: 1px;
     margin: 5px;
-    text-align: center;
-
+    text-align: justify;
 }
 
 .character-image{
     width: 100%;
     height: 200px; 
     background-size:cover !important;
-    background-position: center !important;
-    
+    background-position: center !important;   
 }
 
 .quote{
-    width: 100%;
     height: 150px;
     max-height: 200px;
     overflow:scroll;
-    margin-top: 5px;
+    margin: 8px;
 }
 
 .quote::-webkit-scrollbar{
